@@ -25,8 +25,7 @@ The main stakeholder questions were:
 - Performed root cause analysis to identify loss-making categories and subcategories
 
 ### Python
-- Used for initial data inspection and validation of dataset structure
-- Checked row counts, date ranges, and consistency across related tables before modeling
+- Used for basic data inspection before analysis, including checking table structure, data types, missing values, duplicates, and summary statistics
 
 ### Power BI
 - Built a star schema using fact and dimension tables
@@ -50,16 +49,16 @@ The main stakeholder questions were:
 
 ---
 
-## 5. Dashboard Preview
+## 5. Report Preview
 
-### Interactive Dashboard
+### Interactive Report
 
 Explore the live Power BI report here:
 
 [Open Interactive Power BI Report](https://app.powerbi.com/reportEmbed?reportId=53f1b965-c43b-4072-af06-cb06126866c5&autoAuth=true&ctid=fe3fbfc3-740c-40d3-a502-14423e1ca052&actionBarEnabled=true)
 
 ### Executive Overview
-![Financial Performance Dashboard](assets/dashboard-overview.png)
+![Financial Performance Report](assets/dashboard-overview.png)
 
 ---
 
@@ -120,6 +119,7 @@ financial-performance-analysis/
 
 ## 8. Skills Demonstrated
 - SQL joins and aggregation
+- Python basic data inspection
 - Product and category profitability analysis
 - Financial KPI development
 - Power BI dashboard design
