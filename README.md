@@ -1,9 +1,8 @@
 # Financial Performance Analysis
-### AdventureWorks | SQL | Power BI | DAX | Excel | Python
-Financial performance analysis of AdventureWorks data using SQL and Power BI to uncover loss-making product lines and profitability trends.
+### AdventureWork | SQL | Power BI | DAX | Excel | Python
 
 ## 1. Overview
-Analyzed AdventureWorks sales and product data to evaluate financial performance, uncover loss-making product lines, and identify the key drivers behind declining profitability over time.
+Analyzed AdventureWork sales and product data to evaluate financial performance, uncover loss-making product lines, and identify the key drivers behind declining profitability over time.
 
 ## 2. Business Problem
 The business was generating strong revenue, but profitability remained weak and even turned negative in several periods.
