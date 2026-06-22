@@ -1,3 +1,6 @@
+# Financial Performance Analysis
+### AdventureWorks | SQL | Power BI | DAX | Excel | Python
+
 # financial-performance-analysis
 Financial performance analysis of AdventureWorks data using SQL and Power BI to uncover loss-making product lines and profitability trends.
 
@@ -52,7 +55,7 @@ The main stakeholder questions were:
 ## 5. Dashboard Preview
 
 ### Executive Overview
-![Financial Performance Dashboard]([<iframe title="AdventureWork" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=53f1b965-c43b-4072-af06-cb06126866c5&autoAuth=true&ctid=fe3fbfc3-740c-40d3-a502-14423e1ca052&actionBarEnabled=true" frameborder="0" allowFullScreen="true"></iframe>](https://app.powerbi.com/reportEmbed?reportId=53f1b965-c43b-4072-af06-cb06126866c5&autoAuth=true&ctid=fe3fbfc3-740c-40d3-a502-14423e1ca052&actionBarEnabled=true))
+![Financial Performance Dashboard](assets/dashboard-overview.png)
 
 ---
 
@@ -95,7 +98,7 @@ financial-performance-analysis/
 ├─ powerbi/
 │  └─ financial_performance_dashboard.pbix
 │
-├─ images/
+├─ assets/
 │  ├─ dashboard-overview.png
 │  ├─ product-profitability.png
 │  └─ time-intelligence.png
