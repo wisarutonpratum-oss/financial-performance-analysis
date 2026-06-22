@@ -5,46 +5,47 @@
 Analyzed AdventureWork sales and product data to evaluate financial performance, uncover loss-making product lines, and identify the key drivers behind declining profitability over time.
 
 ## 2. Business Problem
-The business was generating strong revenue, but profitability remained weak and even turned negative in several periods.
+The business was generating substantial revenue, but profitability was not consistent across product categories and time periods.  
+This project was designed to answer the following stakeholder questions:
 
-The main stakeholder questions were:
-
-- Which product categories and subcategories are driving revenue but hurting profit?
-- Is the business consistently unprofitable, or are losses concentrated in specific years or months?
-- Which product lines should the business scale, fix, or deprioritize to improve financial performance?
+- How much revenue, profit, and order volume did the business generate overall?
+- How did financial performance change over time by year and month?
+- Which product categories and sub-categories were driving profit, and which were causing losses?
+- How did current-year performance compare with prior periods?
+- What actions should the business take to improve profitability while maintaining revenue growth?
 
 ---
 
 ## 3. Tools & Process
 
 ### SQL
-- Joined transactional sales data with product, subcategory, and category tables
-- Aggregated revenue, orders, quantity sold, and customer counts
-- Calculated product-level and category-level revenue, cost, and gross profit
-- Performed root cause analysis to identify loss-making categories and subcategories
+- Joined transactional order data with product, subcategory, and category tables
+- Built KPI summaries for revenue, profit, orders, customers, and quantity sold
+- Analyzed revenue and profit by category and sub-category
+- Investigated loss-making product groups and profitability drivers
+- Prepared aggregated outputs to support dashboard development and business interpretation
 
 ### Python
 - Used for basic data inspection before analysis, including checking table structure, data types, missing values, duplicates, and summary statistics
 
 ### Power BI
 - Built a star schema using fact and dimension tables
-- Created DAX measures for Revenue, Cost, Gross Profit, Gross Margin %, Average Order Value, YTD, and YoY metrics
-- Designed dashboards for executive overview, product profitability analysis, and time intelligence
-- Visualized monthly revenue and profit trends to detect seasonality and profit deterioration over time
+- Created DAX measures for Revenue, Cost, Gross Profit, Gross Margin %, Average Order Value, YTD metrics, and prior-year comparisons
+- Designed a multi-page dashboard to track executive KPIs, category profitability, product-level performance, and monthly financial trends
+- Applied time intelligence to evaluate performance over time and compare current results with previous periods
 
 ---
 
 ## 4. Key Findings
 
-- The business generated **$80.49M in total revenue** but ended with **-$2.32M gross profit**, resulting in an overall **gross margin of -2.88%**.
-- **Bikes** accounted for **$66.33M in revenue** (about **82% of total revenue**) but produced **-$3.18M in gross profit**, making it the primary driver of the company’s losses.
-- At the subcategory level, **Road Bikes** generated **$29.39M in revenue** but lost **-$2.49M**, while **Touring Bikes** generated **$10.45M** but lost **-$1.24M**.
-- In contrast, **Mountain Bikes** delivered **$26.49M in revenue** and **$552K in profit**, making it the strongest-performing subcategory within the Bikes category.
-- Revenue increased significantly from **$8.78M in 2011** to **$32.89M in 2013**, but profit did not scale with revenue. Gross margin fell from **0.97% in 2011** to **-5.29% in 2012**, showing that revenue growth was not translating into financial health.
-- Other categories were profitable but too small to offset bike-related losses:
-  - **Components:** **$11.80M revenue**, **$490K profit**
-  - **Clothing:** **$1.78M revenue**, **$172K profit**
-  - **Accessories:** **$571K revenue**, **$198K profit**
+- The business generated **$80.49M in revenue** from **60,919 order lines**, with an **average order value of $21.15K**.
+- Despite strong revenue, the business recorded an overall **loss of -$2.32M**, indicating that sales growth was not translating into healthy profitability.
+- **Bikes** dominated the business, contributing **$66.33M in revenue**, but also generated a **-$3.18M loss**, making it the primary driver of the company’s negative profit.
+- **Components**, **Clothing**, and **Accessories** were all profitable, but their combined profit contribution was not large enough to offset the losses from Bikes.
+- At the sub-category level, **Road Bikes** and **Touring Bikes** were the largest loss-making product groups, generating combined losses of more than **$3.7M**.
+- Additional loss-making sub-categories included **Jerseys**, **Road Frames**, **Caps**, and **Touring Frames**, suggesting that profitability issues extended beyond a single product line.
+- On the positive side, **Mountain Bikes** generated the highest sub-category profit at approximately **$552K**, while **Mountain Frames** also delivered positive contribution.
+- Time-based analysis showed that financial performance varied significantly by year, reinforcing the importance of tracking revenue and profit trends over time rather than relying on total sales alone.
 
 ---
 
@@ -69,26 +70,24 @@ Explore the live Power BI dashboard here:
 
 ## 6. Recommendations
 
-### 1) Review pricing and cost structure for Bikes
-Since Bikes generate the majority of revenue but also drive most of the losses, pricing strategy, discounting, and cost structure should be reviewed—especially for **Road Bikes** and **Touring Bikes**.
+### 1) Investigate the profitability structure of Bikes
+Although Bikes generated the majority of revenue, the category was also the largest source of loss. The business should review:
+- pricing strategy
+- production or sourcing cost structure
+- discounting practices if applicable
+- whether certain bike product lines are being sold at unsustainable margins
 
-### 2) Prioritize profitable product lines
-The business should focus more heavily on product lines with proven profitability, such as **Mountain Bikes**, **Components**, and **Accessories**, through stronger promotion, inventory support, and sales focus.
+### 2) Prioritize turnaround actions for Road Bikes and Touring Bikes
+These sub-categories were the largest loss drivers in the portfolio. Management should evaluate whether margins can be improved through cost reduction, price optimization, product redesign, or SKU rationalization.
 
-### 3) Track profitability at the subcategory level, not just total revenue
-If management only monitors revenue, loss-making products can remain hidden inside strong top-line performance. Profit and gross margin should be monitored regularly by **category**, **subcategory**, and **time period**.
+### 3) Protect and scale profitable categories
+Categories such as **Components**, **Clothing**, and **Accessories** were profitable and may represent more sustainable growth areas. The business should identify which products within these categories can be expanded without materially increasing cost pressure.
 
-### 4) Build a recurring financial performance dashboard
-A monthly dashboard should track:
-- Revenue
-- Cost
-- Gross Profit
-- Gross Margin %
-- YTD vs Prior Year performance
-- Top loss-making products
-- Top profit-making products
+### 4) Use time intelligence to monitor financial health continuously
+Since performance changed over time, management should track **monthly revenue, monthly profit, YTD performance, and prior-year comparisons** on a recurring basis. This helps detect margin deterioration earlier rather than waiting for annual results.
 
-This would help stakeholders identify profitability issues earlier and make faster decisions around pricing, product mix, and cost control.
+### 5) Monitor revenue and profit together, not revenue alone
+This project showed that high sales can mask serious profitability issues. Future financial reporting should consistently track **revenue, cost, profit, and gross margin together** at both category and sub-category levels.
 
 ---
 
