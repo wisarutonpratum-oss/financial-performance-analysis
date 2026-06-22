@@ -91,7 +91,10 @@ financial-performance-analysis/
 │  ├─ financial_kpis.sql
 │  ├─ category_profitability.sql
 │  ├─ subcategory_profitability.sql
-│  └─ yearly_profit_trend.sql
+│  ├─ yearly_profit_trend.sql
+│  ├─ monthly_profit_trend.sql
+│  ├─ top_loss_products.sql
+│  └─ top_profit_products.sql
 │
 ├─ powerbi/
 │  └─ financial_performance_dashboard.pbix
