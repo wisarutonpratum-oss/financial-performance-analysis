@@ -201,7 +201,6 @@ The model follows a star schema with `orders` at the center.
 ## Schema Diagram (Logical View)
 
 ```text
-
 product_categories
 
         │
