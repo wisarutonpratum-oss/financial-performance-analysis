@@ -59,6 +59,12 @@ Explore the live Power BI dashboard here:
 ### Executive Overview
 ![Financial Performance Dashboard](assets/dashboard-overview.png)
 
+### Product Profitability
+![Financial Performance Dashboard](assets/product-profitability.png)
+
+### Time Intelligence
+![Financial Performance Dashboard](assets/time-intelligence.png)
+
 ---
 
 ## 6. Recommendations
