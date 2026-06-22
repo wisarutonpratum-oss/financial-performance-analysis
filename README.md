@@ -52,6 +52,12 @@ The main stakeholder questions were:
 
 ## 5. Dashboard Preview
 
+### Interactive Dashboard
+
+Explore the live Power BI report here:
+
+[Open Interactive Power BI Report]([PASTE_YOUR_POWER_BI_LINK_HERE](https://app.powerbi.com/reportEmbed?reportId=53f1b965-c43b-4072-af06-cb06126866c5&autoAuth=true&ctid=fe3fbfc3-740c-40d3-a502-14423e1ca052&actionBarEnabled=true))
+
 ### Executive Overview
 ![Financial Performance Dashboard](assets/dashboard-overview.png)
 
