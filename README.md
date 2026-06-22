@@ -76,6 +76,7 @@ A monthly dashboard should track:
 - Gross Margin %
 - YTD vs Prior Year performance
 - Top loss-making products
+- Top profit-making products
 
 This would help stakeholders identify profitability issues earlier and make faster decisions around pricing, product mix, and cost control.
 
