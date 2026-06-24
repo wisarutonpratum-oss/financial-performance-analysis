@@ -60,7 +60,7 @@ Explore the live Power BI dashboard here:
 ---
 
 ### 1) Executive Overview
-![Financial Performance Dashboard](assets/dashboard-overview.png)
+![Financial Performance Dashboard](assets/dashboard-overview-v3.png)
 
 ---
 
